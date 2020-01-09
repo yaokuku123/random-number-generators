@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\CORE -I ..\SYSTEM\delay -I ..\SYSTEM\sys -I ..\SYSTEM\usart -I ..\FWLIB\STM32F4xx_StdPeriph_Driver\inc -I ..\USER -I ..\HARDWARE\LED -I ..\HARDWARE\BEEP -I ..\HARDWARE\KEY -I ..\FWLIB\inc -I ..\HARDWARE\HASH -I ..\HARDWARE\STMFLASH -I ..\HARDWARE\QUEUE
+-I.\RTE\_USART
+-ID:\MDK5\ARM\PACK\Keil\STM32F4xx_DFP\1.0.8\Device\Include
+-ID:\MDK5\ARM\CMSIS\Include
+-D__UVISION_VERSION="524" -DSTM32F40_41xxx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER
+-o ..\obj\md5_1.o --omf_browse ..\obj\md5_1.crf --depend ..\obj\md5_1.d "..\HARDWARE\HASH\md5_1.c"
